@@ -21,9 +21,35 @@ Smoothness mean\
 Area standard error\
 Concavity standard error\
 
+* [Look here](https://public.tableau.com/profile/jonathan.daughtry#!/vizhome/BreastCancerCapstoneProjectEDA/BreastCancerEDA) to see how I further visualized the EDA on Tableau
+
 Further details of each step I took are listed throughout the notebook.
 
-### 4. Preprocessing and Splitting the Data
+### 4. Preprocessing, Splitting the Data, and Creating a Baseline Model
+In [this notebook](https://github.com/dawgtree/CapstoneThreeProject/blob/main/Cancer%20Diagnosis%20Capstone%20Project%20Baseline%20Model.ipynb), I decided to model the data with all of the variables and also model the data with just the five remaining variables.  I first split the data into training and testing sets, and then I used Logistic Regression as a baseline model in which I will compare future models. 
+
+The full dataset consisted of 28 determining variables and was split into a training set of 455 samples and a test (holdout) set of 144 samples.
+The partial dataset consisted of 5 determining variables and was split into a training set of 455 samples and a test (holdout) set of 144 samples.
+
+Obtained results are:
+
+For the full dataset
+a. Accuracy of 95.61%
+b. 4 out of 114 (3.5%) false negatives
+c. A recall (when positive diagnoses are collectly predicted) of 91%
+d. AUC of 99.74%
+
+For the partial dataset
+a. Accuracy of 92.98%
+b. 3 out of 114 (2.6%) false negatives
+c. A recall of 92%
+d. AUC of 97.64%
+
+I determined that my targeted metrics are going to be:
+Accuracy of at least 95%
+Less than 2.5% false negatives
+A recall of at least 95%
+AUC of at least 99%
 
 ### 5. Modeling
 
