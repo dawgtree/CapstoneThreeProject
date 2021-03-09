@@ -34,10 +34,10 @@ The partial dataset consisted of 5 determining variables and was split into a tr
 Obtained results are:
 
 For the full dataset\
-a. Accuracy of 95.61%\
-b. 4 out of 114 (3.5%) false negatives\
-c. A recall (when positive diagnoses are collectly predicted) of 91%\
-d. AUC of 99.74%
+a. Accuracy of 97.37%\
+b. 3 out of 114 (1.75%) false negatives\
+c. A recall (when positive diagnoses are collectly predicted) of 95%\
+d. AUC of 99.5%
 
 For the partial dataset\
 a. Accuracy of 92.98%\
@@ -46,8 +46,8 @@ c. A recall of 92%\
 d. AUC of 97.64%\
 
 I determined that my targeted metrics are going to be:\
-Accuracy of at least 95%\
-Less than 2.5% false negatives\
+Accuracy of at least 97%\
+Less than 2% false negatives\
 A recall of at least 95%\
 AUC of at least 99%
 
