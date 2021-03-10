@@ -52,5 +52,11 @@ A recall of at least 95%\
 AUC of at least 99%
 
 ### 5. Modeling
+In [this notebook](https://github.com/dawgtree/CapstoneThreeProject/blob/main/Cancer%20Diagnosis%20Capstone%20Project%20Modeling.ipynb), I used three different modeling methods for classification on the data: K-Nearest Neighbors (KNN), Random Forest Classification, and XGBoost Classification.  For each model, I determined the accuracy, looked at the confusion matrix, plotted the ROC curve, calculated the area under the curve (AUC), and got the classification report and compared it to the baseline Logistic Regression Model.  The XGBoost model performed the best, scoring on par with the Logistic Regression and being the only model that met all the metrics that I set. Further details of each step I took are listed throughout the notebook.\
+The XGBoost Performance Metrics:\
+a. Accuracy of 97.37%\
+b. 2 out of 114 (1.8%) false negatives\
+c. A recall of 95%\
+d. AUC of 99.28%\
 
 ### 5. Reporting Data
