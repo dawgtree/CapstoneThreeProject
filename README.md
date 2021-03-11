@@ -59,4 +59,7 @@ b. 2 out of 114 (1.8%) false negatives\
 c. A recall of 95%\
 d. AUC of 99.28%\
 
+If you would like to use an interactive version to see how changing the threshold for diagnosing a tumor as malignant or not, check out these Tableau notebooks!\
+[This Tableau notebook](https://public.tableau.com/profile/jonathan.daughtry#!/vizhome/BreastCancerModelingwithPartialData/Story1?publish=yes) uses the partial dataset
+
 ### 5. Reporting Data
