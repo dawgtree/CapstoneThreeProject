@@ -65,3 +65,5 @@ If you would like to use an interactive version to see how changing the threshol
 
 ### 5. Reporting Data
 [This pdf](https://github.com/dawgtree/CapstoneThreeProject/blob/main/Capstone%20Three%20Final%20Report.pdf) gives a detailed explanation of the entire process from the beginning and suggests the next steps that can be taken with the results.
+
+[This presentation](https://github.com/dawgtree/CapstoneThreeProject/blob/main/3rd%20Capstone%20Final%20Presentation.pdf) gives more of an overview of the process, along with future steps. This is designed to be what is presented to clients.
