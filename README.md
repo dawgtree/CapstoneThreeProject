@@ -64,3 +64,4 @@ If you would like to use an interactive version to see how changing the threshol
 [This Tableau notebook](https://public.tableau.com/profile/jonathan.daughtry#!/vizhome/BreastCancerModelingwithFullData/Story1?publish=yes) uses the full dataset.  Notice how the accuracy scores are much better with the full data.
 
 ### 5. Reporting Data
+[This pdf](https://github.com/dawgtree/CapstoneThreeProject/blob/main/Capstone%20Three%20Final%20Report.pdf) gives a detailed explanation of the entire process from the beginning and suggests the next steps that can be taken with the results.
